@@ -1,7 +1,7 @@
 # Perform an analysis of customer behavior within e-commerce store
-- The target is to discover and interpret meaningful patterns in the data that could give us the ability to make precise, data-driven sales management decisions. Hencee maximize the sales capacity, and also meet customer need.
+- The target is to discover and interpret meaningful patterns in the data that could give us the ability to make precise, data-driven sales management decisions. Hence maximize the sales capacity, and also meet customer need.
 ## Data to analyze 
-- behavior data for 2 month (from October to November 2019 ) of a large multi-category online store
+- Behavior data for 2 month (from October to November 2019 ) of a large multi-category online store
 ## Dataset structure
 Each row in the file represents an event. All events are related to products and users. There are different types of events.
 - event_time
