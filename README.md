@@ -25,3 +25,7 @@ Each row in the file represents an event. All events are related to products and
   - Permanent user ID.
 - user_session
   - Temporary user's session ID. Same for each user's session. Changed every time user come back to online store from a long pause.
+  ## Script descriptions
+  - ADM-HW2.ipynb
+    - Jupyter notebook script that contains the solutions to all the research questions
+  
