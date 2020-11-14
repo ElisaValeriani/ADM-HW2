@@ -1,5 +1,5 @@
 # Perform an analysis of customer behavior within e-commerce store
-- The target is to discover and interpret meaningful patterns in the data that could give us the ability to make precise, data-driven sales management decisions. Hence maximize the sales capacity, and also meet customer need.
+- The target of this research analysis is to manipulate and interpret meaningful patterns in the given data that could give us the ability to make precise, data-driven sales management decisions. Hence maximize the sales capacity, and also meet customer need.
 ## Data to analyze 
 - Behavior data for 2 month (from October to November 2019 ) of a large multi-category online store
 ## Dataset structure
