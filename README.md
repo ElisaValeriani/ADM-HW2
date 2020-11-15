@@ -2,7 +2,7 @@
 - The target of this research analysis is to manipulate and interpret meaningful patterns in the given data that could give us the ability to make precise, data-driven sales management decisions. Hence maximize the sales capacity, and also meet customer need.
 ## Data to analyze 
 - Behavior data for 2 month (from October to November 2019 ) of a large multi-category online store (13.67 GB)
-#### Because of the large dataset, Dask dataframes is used to read and write the csv data in Parquet formats, to facilitate computation speed and memory.
+#### Because of the large dataset, Dask dataframes is used to read and write the csv data in Parquet formats, to facilitate computation speed and memory. For some research questions the dataset is devided in chuncks in order to reach the same goal
 ## Dataset structure
 Each row in the file represents an event. All events are related to products and users. There are different types of events.
 - event_time
@@ -26,6 +26,8 @@ Each row in the file represents an event. All events are related to products and
   - Permanent user ID.
 - user_session
   - Temporary user's session ID. Same for each user's session. Changed every time user come back to online store from a long pause.
+
+Note: in this specific dataset the event_type 'removefromcart' is absent. It is therefore possible to consider as removed from the cart the items that have been put in the cart and later purchased  
 ## Script descriptions
 - ADM-HW2.ipynb
   - Jupyter notebook script that contains the solutions to all the research questions
